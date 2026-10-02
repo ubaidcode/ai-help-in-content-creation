@@ -20,7 +20,7 @@ import streamlit as st
 # YAHAN SIRF AAP apni Gemini API key aur model name likhein.
 # END USER ko API key ya model name nahi dikhaya jayega.
 
-API_KEY = st.secrets["GEMINI_API_KEY"]
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 
 
 MODEL_NAME = "gemini-3.5-flash"
